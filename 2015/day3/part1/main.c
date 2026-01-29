@@ -14,7 +14,6 @@ int main()
     int numHousesGotAtleastOneGift = 0;
     int xPos = 2059, yPos = 2049;
     int *santasGrid = malloc(HEIGHT * LENGTH * sizeof(int));
-    // int santasGrid[HEIGHT][LENGTH];
     char instructionLine[TOTAL_LINE_BUFFER];
     int numLeft = 0, numRight = 0, numUp = 0, numDown = 0;
 
